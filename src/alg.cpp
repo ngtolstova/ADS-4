@@ -41,7 +41,7 @@ int countPairs3(int* arr, int len, int value) {
             }
             if (arr[i] + arr[mid] > value) stop = mid;
             else
-							start = mid;
+	       start = mid;
         }
     }
     return count;
